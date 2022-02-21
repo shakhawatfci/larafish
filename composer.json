@@ -1,0 +1,29 @@
+{
+    "name": "arifuzzaman31/find-fish",
+    "description": "tracking about your product",
+    "type": "library",
+    "require": {
+        "php": ">= 5.4\u001b[2~\u001b[2~\u001b[D\u001b[D\u001b[\u001b[\u001b[C\u001b[C\u001b[C\u001b[C",
+        "illuminate/support": ">= 5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shakhawatfci",
+            "email": "94shakha.18@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Arifuzzaman\\FindFish\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arifuzzaman\\FindFish\\FindFishServiceProvider"
+            ]
+        }
+    }
+}
